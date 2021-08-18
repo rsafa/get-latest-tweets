@@ -1,7 +1,7 @@
-## Python Script to Download Tweets
+# Python Script to Download Tweets
 Use `get_latest_tweets.py` to download the last tweets for the given query.
 
-### Setup
+## Setup
 (1) You need to get your Twitter API Credentials by creating a new app at [developer.twitter.com](https://developer.twitter.com).
 
 (2) Install tweepy.
