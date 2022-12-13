@@ -16,7 +16,7 @@ tweets = []
 
 def query_to_csv(text_query, count):
     try:
-        tweets = tweepy.Cursor(api.search, q=text_query).items(count)
+        tweets = tweepy.Cursor(api.search_tweets, q=text_query).items(count)
         tweets_list = [[tweet.id, tweet.created_at, tweet.text] for tweet in tweets]
 
         # tweet information
